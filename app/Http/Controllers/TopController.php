@@ -9,8 +9,8 @@ class TopController extends Controller {
         $sampleValue = "sample テキストです。";
 
         // 参照
-        $records = DB::connection('mysql')->select("select * from items"); // query 実行処理 実行結果を $records に代入
-        $name = $records[0]->name;
+        // $records = DB::connection('mysql')->select("select * from items"); // query 実行処理 実行結果を $records に代入
+        // $name = $records[0]->name;
 
         // 追加
         // $insertResult = DB::connection("mysql")->insert("insert into items (id,name,price) values (null,'メロン',2000)");
