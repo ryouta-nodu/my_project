@@ -10,8 +10,8 @@
 </head>
 
 <body>
-    sample Controller!!
-    <?= $sampleValue ?>
+    Sample Controller!!
+    <!-- <?= $sampleValue // 追加 ?> -->
 </body>
 
 </html>
