@@ -11,6 +11,12 @@
 
 <body>
     Hello Laravel!!
+
+    <div id="app">
+        <example-component></example-component>
+    </div>
+
+    <script src="/js/build/index/index.js"></script>
 </body>
 
 </html>
